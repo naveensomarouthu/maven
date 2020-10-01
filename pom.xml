@@ -37,18 +37,7 @@
     </snapshotRepository>
 </distributionManagement>
 
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>NAREDDY-releases</name>
-        <url>http://localhost:8081/artifactory/maven-test</url>
-    </repository>
-    <snapshotRepository>
-        <id>central</id>
-        <name>NAREDDY-snapshots</name>
-        <url>http://localhost:8081/artifactory/maven-test</url>
-    </snapshotRepository>
-</distributionManagement>
+
 
  
 </project>
