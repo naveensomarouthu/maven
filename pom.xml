@@ -18,6 +18,17 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  <build>
+    <plugins>
+      <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>3.0.0-M1</version>
+            <configuration>
+              <deployAtEnd>true</deployAtEnd>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
 
 
   <dependencies>
